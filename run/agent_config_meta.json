@@ -1,0 +1,261 @@
+{
+  "keys": "D:\\Hcjs\\study\\egg-test\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "D:\\Hcjs\\study\\egg-test\\config\\config.default.js",
+    "mapping": {
+      ".tpl": "D:\\Hcjs\\study\\egg-test\\config\\config.default.js"
+    },
+    "root": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "news": {
+    "serverUrl": "D:\\Hcjs\\study\\egg-test\\config\\config.default.js",
+    "pageSize": "D:\\Hcjs\\study\\egg-test\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "env": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "bugs": {
+      "url": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "homepage": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
+}
