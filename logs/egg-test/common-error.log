@@ -1,0 +1,127 @@
+2018-04-23 18:10:54,389 ERROR 10828 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 10828
+hostname: LAPTOP-U45N3VIB
+
+2018-04-23 18:35:16,469 ERROR 11960 [-/127.0.0.1/-/13ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 11960
+hostname: LAPTOP-U45N3VIB
+
+2018-04-23 18:35:18,437 ERROR 11960 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 11960
+hostname: LAPTOP-U45N3VIB
+
+2018-04-23 18:35:19,244 ERROR 11960 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 11960
+hostname: LAPTOP-U45N3VIB
+
+2018-04-23 18:35:20,005 ERROR 11960 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 11960
+hostname: LAPTOP-U45N3VIB
+
+2018-04-23 18:35:20,676 ERROR 11960 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 11960
+hostname: LAPTOP-U45N3VIB
+
+2018-04-23 18:36:44,567 ERROR 12016 [-/127.0.0.1/-/8ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 12016
+hostname: LAPTOP-U45N3VIB
+
+2018-04-23 18:36:46,222 ERROR 12016 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 12016
+hostname: LAPTOP-U45N3VIB
+
+2018-04-23 18:38:01,480 ERROR 2648 [-/127.0.0.1/-/13ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 2648
+hostname: LAPTOP-U45N3VIB
+
+2018-04-23 18:38:02,781 ERROR 2648 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 2648
+hostname: LAPTOP-U45N3VIB
+
