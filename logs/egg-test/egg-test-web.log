@@ -1,228 +1,41 @@
-2018-04-23 17:49:54,206 WARN 7672 [-/127.0.0.1/-/6ms POST /users] nodejs.ForbiddenError: missing csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:140:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at createGenerator (E:\study\egg\node_modules\koa-convert\index.js:24:16)
-    at createGenerator.next (<anonymous>)
-    at onFulfilled (E:\study\egg\node_modules\co\index.js:65:19)
-    at E:\study\egg\node_modules\co\index.js:54:5
-    at new Promise (<anonymous>)
-    at Object.co (E:\study\egg\node_modules\co\index.js:50:10)
-    at Object.toPromise (E:\study\egg\node_modules\co\index.js:118:63)
-    at next (E:\study\egg\node_modules\co\index.js:99:29)
-    at onFulfilled (E:\study\egg\node_modules\co\index.js:69:7)
-    at E:\study\egg\node_modules\co\index.js:54:5
-    at new Promise (<anonymous>)
-    at Object.co (E:\study\egg\node_modules\co\index.js:50:10)
-    at converted (E:\study\egg\node_modules\koa-convert\index.js:17:15)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at overrideMethod (E:\study\egg\node_modules\koa-override\index.js:38:12)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at bodyParser (E:\study\egg\node_modules\koa-bodyparser\index.js:86:11)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-message: 'missing csrf token'
-pid: 7672
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 17:56:13,287 WARN 2364 [-/127.0.0.1/-/4ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 17:56:13,289 WARN 2364 [-/127.0.0.1/-/5ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 2364
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 17:56:16,443 WARN 2364 [-/127.0.0.1/-/4ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 17:56:16,444 WARN 2364 [-/127.0.0.1/-/5ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 2364
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 17:56:51,536 WARN 2364 [-/127.0.0.1/-/1ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 17:56:51,540 WARN 2364 [-/127.0.0.1/-/5ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 2364
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 17:58:04,324 WARN 2020 [-/127.0.0.1/-/3ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 17:58:04,327 WARN 2020 [-/127.0.0.1/-/5ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 2020
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 18:02:12,172 WARN 4276 [-/127.0.0.1/-/3ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 18:02:12,177 WARN 4276 [-/127.0.0.1/-/8ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 4276
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 18:11:11,251 WARN 12760 [-/127.0.0.1/-/2ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 18:11:11,252 WARN 12760 [-/127.0.0.1/-/4ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 12760
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 18:11:11,989 WARN 12760 [-/127.0.0.1/-/1ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 18:11:11,990 WARN 12760 [-/127.0.0.1/-/2ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 12760
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 18:12:34,790 WARN 5328 [-/127.0.0.1/-/30ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 18:12:34,795 WARN 5328 [-/127.0.0.1/-/32ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 5328
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 18:25:44,787 WARN 2260 [-/127.0.0.1/-/21ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 18:25:44,789 WARN 2260 [-/127.0.0.1/-/22ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 2260
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 18:31:26,805 WARN 7776 [-/127.0.0.1/-/16ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 18:31:26,807 WARN 7776 [-/127.0.0.1/-/18ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 7776
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 18:34:47,377 WARN 1960 [-/127.0.0.1/-/21ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 18:34:47,379 WARN 1960 [-/127.0.0.1/-/22ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 1960
-hostname: LAPTOP-U45N3VIB
-
-2018-04-23 18:35:00,451 WARN 4596 [-/127.0.0.1/-/16ms POST /users] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2018-04-23 18:35:00,454 WARN 4596 [-/127.0.0.1/-/18ms POST /users] nodejs.ForbiddenError: invalid csrf token
-    at Object.throw (E:\study\egg\node_modules\koa\lib\context.js:93:11)
-    at Object.assertCsrf (E:\study\egg\node_modules\egg-security\app\extend\context.js:149:17)
-    at csrf (E:\study\egg\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at E:\study\egg\node_modules\koa-compose\index.js:34:12
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-    at session (E:\study\egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (E:\study\egg\node_modules\koa-compose\index.js:42:32)
-    at next (E:\study\egg\node_modules\koa-compose\index.js:43:18)
-message: 'invalid csrf token'
-pid: 4596
-hostname: LAPTOP-U45N3VIB
-
+2018-04-26 18:11:26,331 INFO 24188 [-/127.0.0.1/-/18ms POST /upload] [controller.form] egg-multipart-test/新建文本文档.txt
+2018-04-26 18:11:26,333 INFO 24188 [-/127.0.0.1/-/18ms POST /upload] FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: BufferList { head: null, tail: null, length: 0 },
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     resumeScheduled: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: 
+   { end: [Function],
+     limit: { [Function: bound onceWrapper] listener: [Function] } },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'file',
+  filename: '新建文本文档.txt',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'text/plain',
+  mimeType: 'text/plain',
+  fields: { title: '34' } }

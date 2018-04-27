@@ -1,8 +1,8 @@
 module.exports = app => {
     const { router, controller } = app
-    const route = app.middleware.route.debug
-    router.get('/', route, controller.home.index)
-    // controller的第二种写法
-    router.get('/news', 'news.list')
-    router.post('/users', controller.users.post)
+    const debug = app.middleware.route.debug
+    router.get('/', debug, controller.home.index)
+    require('./router/news')(app)
+    require('./router/user')(app)
+    require('./router/form')(app)
 }

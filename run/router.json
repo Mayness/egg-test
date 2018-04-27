@@ -27,13 +27,371 @@
     ]
   },
   {
-    "name": null,
+    "name": "users",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/users",
+    "regexp": "/^\\/users(?:\\/(?=$))?$/",
+    "stack": [
+      "uppercase",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "new_user",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/users/new",
+    "regexp": "/^\\/users\\/new(?:\\/(?=$))?$/",
+    "stack": [
+      "uppercase",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "users",
     "methods": [
       "POST"
     ],
     "paramNames": [],
     "path": "/users",
     "regexp": "/^\\/users(?:\\/(?=$))?$/",
+    "stack": [
+      "uppercase",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "user",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "uppercase",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "edit_user",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:id/edit",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))\\/edit(?:\\/(?=$))?$/",
+    "stack": [
+      "uppercase",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "user",
+    "methods": [
+      "PATCH",
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "uppercase",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_user",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "uppercase",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "users",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "pa",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:pa",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "new_user",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "pa",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:pa/new",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))\\/new(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "users",
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [
+      {
+        "name": "pa",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:pa",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "user",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "pa",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:pa/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "edit_user",
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "pa",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:pa/:id/edit",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))\\/edit(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "user",
+    "methods": [
+      "PATCH",
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "pa",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:pa/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": "destroy_user",
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "pa",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/users/:pa/:id",
+    "regexp": "/^\\/users\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/form",
+    "regexp": "/^\\/form(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/upload",
+    "regexp": "/^\\/upload(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

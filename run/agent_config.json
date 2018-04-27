@@ -11,9 +11,9 @@
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "useSession": false,
-        "ignoreJSON": false,
+        "ignoreJSON": true,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
@@ -83,8 +83,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\study\\egg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\study\\egg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "E:\\study\\egg-test\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "E:\\study\\egg-test\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -95,7 +95,9 @@
       "fields": 10,
       "fileSize": "10mb",
       "files": 10,
-      "fileExtensions": [],
+      "fileExtensions": [
+        ".txt"
+      ],
       "whitelist": null
     },
     "development": {
@@ -108,7 +110,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "E:\\study\\egg\\logs\\egg-test\\egg-schedule.log"
+        "file": "E:\\study\\egg-test\\logs\\egg-test\\egg-schedule.log"
       }
     },
     "logrotator": {
@@ -122,20 +124,27 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\study\\egg\\app\\public",
+      "dir": "E:\\study\\egg-test\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "E:\\study\\egg\\app\\view",
+      "root": "E:\\study\\egg-test\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
       "mapping": {
         ".tpl": "nunjucks"
       }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
     },
     "env": "local",
     "name": "egg-test",
@@ -158,15 +167,16 @@
       "dependencies": {
         "egg": "^2.7.1",
         "egg-mock": "^3.17.1",
-        "egg-view-nunjucks": "^2.2.0"
+        "egg-view-nunjucks": "^2.2.0",
+        "stream-wormhole": "^1.0.3"
       },
       "devDependencies": {
         "egg-bin": "^4.7.0"
       }
     },
-    "baseDir": "E:\\study\\egg",
+    "baseDir": "E:\\study\\egg-test",
     "HOME": "C:\\Users\\10953",
-    "rundir": "E:\\study\\egg\\run",
+    "rundir": "E:\\study\\egg-test\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -186,8 +196,8 @@
     "bodyParser": {
       "enable": true,
       "encoding": "utf8",
-      "formLimit": "100kb",
-      "jsonLimit": "100kb",
+      "formLimit": "1mb",
+      "jsonLimit": "1mb",
       "strict": true,
       "queryString": {
         "arrayLimit": 100,
@@ -196,7 +206,7 @@
       }
     },
     "logger": {
-      "dir": "E:\\study\\egg\\logs\\egg-test",
+      "dir": "E:\\study\\egg-test\\logs\\egg-test",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -275,8 +285,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-session",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -288,8 +298,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-security",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -301,8 +311,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-jsonp",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -314,8 +324,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-onerror",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -325,8 +335,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-i18n",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -336,8 +346,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-watcher",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -347,8 +357,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-multipart",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -362,8 +372,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-development",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-development",
       "version": "2.2.0"
     },
     "schedule": {
@@ -373,8 +383,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-schedule",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -386,8 +396,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-logrotator",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -397,8 +407,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-static",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-static",
       "version": "2.1.0"
     },
     "view": {
@@ -408,9 +418,23 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\study\\egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\study\\egg\\node_modules\\egg-view",
+      "from": "E:\\study\\egg-test\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-view",
       "version": "2.1.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\study\\egg-test\\config\\plugin.js",
+      "path": "E:\\study\\egg-test\\node_modules\\egg-view-nunjucks",
+      "version": "2.2.0"
     }
   }
 }

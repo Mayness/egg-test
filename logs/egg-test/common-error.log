@@ -1,127 +1,279 @@
-2018-04-23 18:10:54,389 ERROR 10828 nodejs.unhandledExceptionError: read ECONNRESET
-    at _errnoException (util.js:1022:11)
-    at TCP.onread (net.js:628:25)
-code: 'ECONNRESET'
-errno: 'ECONNRESET'
-syscall: 'read'
-name: 'unhandledExceptionError'
-pid: 10828
+2018-04-24 10:06:28,915 ERROR 13572 [-/127.0.0.1/-/3ms POST /users/2] nodejs.ReferenceError: ctx is not defined
+    at Object.exports.create (E:\study\egg-test\app\controller\users.js:24:15)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.objectControllerMiddleware (E:\study\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:112:26)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\study\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\study\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 13572
 hostname: LAPTOP-U45N3VIB
 
-2018-04-23 18:35:16,469 ERROR 11960 [-/127.0.0.1/-/13ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
-    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
-    at <anonymous>
-generatedMessage: false
-name: 'AssertionError [ERR_ASSERTION]'
-code: 'ERR_ASSERTION'
-actual: undefined
-expected: true
-operator: '=='
-pid: 11960
+2018-04-26 11:03:31,353 ERROR 25008 [-/127.0.0.1/-/21ms POST /form] nodejs.ReferenceError: ctx is not defined
+    at formController.capture (E:\study\egg-test\app\controller\form.js:6:5)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\study\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\study\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\study\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 25008
 hostname: LAPTOP-U45N3VIB
 
-2018-04-23 18:35:18,437 ERROR 11960 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
-    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
-    at <anonymous>
-generatedMessage: false
-name: 'AssertionError [ERR_ASSERTION]'
-code: 'ERR_ASSERTION'
-actual: undefined
-expected: true
-operator: '=='
-pid: 11960
+2018-04-26 11:03:52,746 ERROR 27732 [-/127.0.0.1/-/31ms POST /form] nodejs.ReferenceError: ctx is not defined
+    at formController.capture (E:\study\egg-test\app\controller\form.js:6:5)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\study\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\study\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\study\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 27732
 hostname: LAPTOP-U45N3VIB
 
-2018-04-23 18:35:19,244 ERROR 11960 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
-    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
-    at <anonymous>
-generatedMessage: false
-name: 'AssertionError [ERR_ASSERTION]'
-code: 'ERR_ASSERTION'
-actual: undefined
-expected: true
-operator: '=='
-pid: 11960
+2018-04-26 11:03:56,290 ERROR 27732 [-/127.0.0.1/-/3ms POST /form] nodejs.ReferenceError: ctx is not defined
+    at formController.capture (E:\study\egg-test\app\controller\form.js:6:5)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\study\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\study\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\study\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 27732
 hostname: LAPTOP-U45N3VIB
 
-2018-04-23 18:35:20,005 ERROR 11960 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
-    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
-    at <anonymous>
-generatedMessage: false
-name: 'AssertionError [ERR_ASSERTION]'
-code: 'ERR_ASSERTION'
-actual: undefined
-expected: true
-operator: '=='
-pid: 11960
+2018-04-26 11:05:22,396 ERROR 23740 [-/127.0.0.1/-/19ms POST /form] nodejs.ReferenceError: ctx is not defined
+    at formController.capture (E:\study\egg-test\app\controller\form.js:6:5)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\study\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\study\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\study\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 23740
 hostname: LAPTOP-U45N3VIB
 
-2018-04-23 18:35:20,676 ERROR 11960 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
-    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
-    at <anonymous>
-generatedMessage: false
-name: 'AssertionError [ERR_ASSERTION]'
-code: 'ERR_ASSERTION'
-actual: undefined
-expected: true
-operator: '=='
-pid: 11960
+2018-04-26 11:05:46,859 ERROR 23740 [-/127.0.0.1/-/2ms POST /form] nodejs.ReferenceError: ctx is not defined
+    at formController.capture (E:\study\egg-test\app\controller\form.js:6:5)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\study\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\study\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\study\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 23740
 hostname: LAPTOP-U45N3VIB
 
-2018-04-23 18:36:44,567 ERROR 12016 [-/127.0.0.1/-/8ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
-    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
-    at <anonymous>
-generatedMessage: false
-name: 'AssertionError [ERR_ASSERTION]'
-code: 'ERR_ASSERTION'
-actual: undefined
-expected: true
-operator: '=='
-pid: 12016
+2018-04-26 13:39:53,791 ERROR 7792 nodejs.ClusterClientNoResponseError: client no response in 3372271ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\study\egg-test\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 7792
 hostname: LAPTOP-U45N3VIB
 
-2018-04-23 18:36:46,222 ERROR 12016 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
-    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
-    at <anonymous>
-generatedMessage: false
-name: 'AssertionError [ERR_ASSERTION]'
-code: 'ERR_ASSERTION'
-actual: undefined
-expected: true
-operator: '=='
-pid: 12016
+2018-04-26 14:47:05,213 ERROR 25640 [-/127.0.0.1/-/11ms GET /] nodejs.ReferenceError: ths is not defined
+    at HomeController.index (E:\study\egg-test\app\controller\home.js:10:21)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\study\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\study\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at debug (E:\study\egg-test\app\middleware\route.js:4:11)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+
+pid: 25640
 hostname: LAPTOP-U45N3VIB
 
-2018-04-23 18:38:01,480 ERROR 2648 [-/127.0.0.1/-/13ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
-    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
-    at <anonymous>
-generatedMessage: false
-name: 'AssertionError [ERR_ASSERTION]'
-code: 'ERR_ASSERTION'
-actual: undefined
-expected: true
-operator: '=='
-pid: 2648
+2018-04-26 15:02:26,660 ERROR 29072 [-/127.0.0.1/-/8ms GET /] nodejs.TypeError: logger.err is not a function
+    at HomeController.index (E:\study\egg-test\app\controller\home.js:16:16)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\study\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\study\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at debug (E:\study\egg-test\app\middleware\route.js:4:11)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+
+pid: 29072
 hostname: LAPTOP-U45N3VIB
 
-2018-04-23 18:38:02,781 ERROR 2648 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (E:\study\egg\node_modules\egg-view\lib\context_view.js:88:5)
-    at ContextView.[contextView#render] (E:\study\egg\node_modules\egg-view\lib\context_view.js:69:39)
+2018-04-26 15:02:41,959 ERROR 26148 [-/127.0.0.1/-/9ms GET /] { request: 
+   { method: 'GET',
+     url: '/',
+     header: 
+      { host: '127.0.0.1:7001',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9' } },
+  response: 
+   { status: 404,
+     message: 'Not Found',
+     header: { 'accept-ranges': 'bytes' } },
+  app: 
+   { env: 'local',
+     name: 'egg-test',
+     baseDir: 'E:\\study\\egg-test',
+     subdomainOffset: 2,
+     config: '<egg config>',
+     controller: '<egg controller>',
+     httpclient: '<egg httpclient>',
+     loggers: '<egg loggers>',
+     middlewares: '<egg middlewares>',
+     router: '<egg router>',
+     serviceClasses: '<egg serviceClasses>' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2018-04-26 15:07:49,859 ERROR 18872 [-/127.0.0.1/-/5ms GET /] { request: 
+   { method: 'GET',
+     url: '/',
+     header: 
+      { host: '127.0.0.1:7001',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9' } },
+  response: 
+   { status: 404,
+     message: 'Not Found',
+     header: { 'accept-ranges': 'bytes' } },
+  app: 
+   { env: 'local',
+     name: 'egg-test',
+     baseDir: 'E:\\study\\egg-test',
+     subdomainOffset: 2,
+     config: '<egg config>',
+     controller: '<egg controller>',
+     httpclient: '<egg httpclient>',
+     loggers: '<egg loggers>',
+     middlewares: '<egg middlewares>',
+     router: '<egg router>',
+     serviceClasses: '<egg serviceClasses>' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2018-04-26 15:33:34,204 ERROR 31784 [-/127.0.0.1/-/15ms GET /] nodejs.TypeError: Cannot read property 'ctx' of undefined
+    at success (E:\study\egg-test\app\controller\core\baseController.js:5:10)
+    at HomeController.index (E:\study\egg-test\app\controller\home.js:22:9)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\study\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\study\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at debug (E:\study\egg-test\app\middleware\route.js:4:11)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 31784
+hostname: LAPTOP-U45N3VIB
+
+2018-04-26 15:35:18,918 ERROR 4504 [-/127.0.0.1/-/15ms GET /] nodejs.TypeError: Cannot read property 'ctx' of undefined
+    at success (E:\study\egg-test\app\controller\core\baseController.js:5:10)
+    at HomeController.index (E:\study\egg-test\app\controller\home.js:22:9)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\study\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\study\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\study\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at debug (E:\study\egg-test\app\middleware\route.js:4:11)
+    at dispatch (E:\study\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 4504
+hostname: LAPTOP-U45N3VIB
+
+2018-04-26 17:52:11,564 ERROR 32368 [-/127.0.0.1/-/10ms POST /upload] nodejs.TypeError: Cannot read property 'put' of undefined
+    at formController.upload (E:\study\egg-test\app\controller\form.js:23:30)
     at <anonymous>
-generatedMessage: false
-name: 'AssertionError [ERR_ASSERTION]'
-code: 'ERR_ASSERTION'
-actual: undefined
-expected: true
-operator: '=='
-pid: 2648
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 32368
+hostname: LAPTOP-U45N3VIB
+
+2018-04-26 17:52:33,688 ERROR 32368 [-/127.0.0.1/-/7ms POST /upload] nodejs.TypeError: Cannot read property 'put' of undefined
+    at formController.upload (E:\study\egg-test\app\controller\form.js:23:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 32368
+hostname: LAPTOP-U45N3VIB
+
+2018-04-26 17:59:20,342 ERROR 12388 [-/127.0.0.1/-/10ms POST /upload] nodejs.TypeError: Cannot read property 'put' of undefined
+    at formController.upload (E:\study\egg-test\app\controller\form.js:24:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12388
+hostname: LAPTOP-U45N3VIB
+
+2018-04-26 18:02:59,588 ERROR 25856 [-/127.0.0.1/-/23ms POST /upload] nodejs.TypeError: Cannot read property 'put' of undefined
+    at formController.upload (E:\study\egg-test\app\controller\form.js:22:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 25856
+hostname: LAPTOP-U45N3VIB
+
+2018-04-26 18:05:35,611 ERROR 16344 [-/127.0.0.1/-/17ms POST /upload] nodejs.TypeError: Cannot read property 'put' of undefined
+    at formController.upload (E:\study\egg-test\app\controller\form.js:22:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 16344
+hostname: LAPTOP-U45N3VIB
+
+2018-04-26 18:10:30,394 ERROR 21040 [-/127.0.0.1/-/23ms POST /upload] nodejs.TypeError: Cannot read property 'url' of undefined
+    at formController.upload (E:\study\egg-test\app\controller\form.js:30:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 21040
+hostname: LAPTOP-U45N3VIB
+
+2018-04-26 18:11:26,336 ERROR 24188 [-/127.0.0.1/-/22ms POST /upload] nodejs.TypeError: Cannot read property 'url' of undefined
+    at formController.upload (E:\study\egg-test\app\controller\form.js:31:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 24188
 hostname: LAPTOP-U45N3VIB
 

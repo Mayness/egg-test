@@ -1,4 +1,4 @@
-const Controller = require('egg').Controller
+const { Controller } = require('egg')
 
 class newsController extends Controller {
     async list () {
