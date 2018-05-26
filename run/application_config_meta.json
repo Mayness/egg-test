@@ -13,6 +13,12 @@
     "serverUrl": "D:\\Hcjs\\study\\egg-test\\config\\config.default.js",
     "pageSize": "D:\\Hcjs\\study\\egg-test\\config\\config.default.js"
   },
+  "mongoose": {
+    "client": {
+      "url": "D:\\Hcjs\\study\\egg-test\\config\\config.default.js",
+      "options": "D:\\Hcjs\\study\\egg-test\\config\\config.default.js"
+    }
+  },
   "session": {
     "maxAge": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-session\\config\\config.default.js",
     "key": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg-session\\config\\config.default.js",
@@ -166,6 +172,7 @@
     "homepage": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "egg": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
+      "egg-mongoose": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "D:\\Hcjs\\study\\egg-test\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {

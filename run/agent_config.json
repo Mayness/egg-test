@@ -166,6 +166,7 @@
       "homepage": "https://github.com/Mayness/egg-test#readme",
       "dependencies": {
         "egg": "^2.7.1",
+        "egg-mongoose": "^2.2.1",
         "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
@@ -268,6 +269,12 @@
     "news": {
       "serverUrl": "https://hacker-news.firebaseio.com/v0",
       "pageSize": 5
+    },
+    "mongoose": {
+      "client": {
+        "url": "mongodb://127.0.0.1/popular",
+        "options": {}
+      }
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],

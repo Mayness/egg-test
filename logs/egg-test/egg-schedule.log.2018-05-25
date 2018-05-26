@@ -1,0 +1,34 @@
+2018-04-22 19:34:14,422 INFO 1252 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-04-23 00:00:00.000
+2018-04-22 19:34:14,423 INFO 1252 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-04-23 00:00:01.000
+2018-04-22 19:37:40,116 INFO 11492 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-04-23 00:00:00.000
+2018-04-22 19:37:40,116 INFO 11492 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-04-23 00:00:01.000
+2018-04-22 19:53:03,727 INFO 8116 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-04-23 00:00:00.000
+2018-04-22 19:53:03,743 INFO 8116 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-04-23 00:00:01.000
+2018-04-22 19:55:42,251 INFO 11904 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-04-23 00:00:00.000
+2018-04-22 19:55:42,251 INFO 11904 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-04-23 00:00:01.000
+2018-04-22 20:27:30,698 INFO 13104 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-04-23 00:00:00.000
+2018-04-22 20:27:30,699 INFO 13104 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-04-23 00:00:01.000
+2018-04-22 21:21:16,294 INFO 12844 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-04-23 00:00:00.000
+2018-04-22 21:21:16,296 INFO 12844 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-04-23 00:00:01.000
+2018-04-22 21:24:44,254 INFO 5496 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-04-23 00:00:00.000
+2018-04-22 21:24:44,255 INFO 5496 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-04-23 00:00:01.000
+2018-04-22 21:40:24,985 INFO 10348 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-04-23 00:00:00.000
+2018-04-22 21:40:24,986 INFO 10348 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-04-23 00:00:01.000
+2018-04-22 21:41:29,773 INFO 3988 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-04-23 00:00:00.000
+2018-04-22 21:41:29,774 INFO 3988 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-04-23 00:00:01.000
+2018-05-25 23:07:44,882 INFO 13244 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-26 00:00:00.000
+2018-05-25 23:07:44,883 INFO 13244 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-26 00:00:01.000
+2018-05-25 23:11:42,570 INFO 10108 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-26 00:00:00.000
+2018-05-25 23:11:42,571 INFO 10108 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-26 00:00:01.000
+2018-05-25 23:57:20,348 INFO 5048 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-26 00:00:00.000
+2018-05-25 23:57:20,349 INFO 5048 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-26 00:00:01.000
+2018-05-26 00:00:00,006 INFO 13240 [15272640000051047740221897234] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-05-26 00:00:00,007 INFO 13240 [15272640000051047740221897234] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-05-26 00:00:00,028 INFO 13240 [15272640000051047740221897234] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 20ms
+2018-05-26 00:00:00,005 INFO 5048 [15272640000051047740221897234] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-05-26 00:00:00,010 INFO 5048 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-05-27 00:00:00.000
+2018-05-26 00:00:01,002 INFO 5048 [15272640010021047741218140792] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-05-26 00:00:01,007 INFO 5048 [Timer] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-05-27 00:00:01.000
+2018-05-26 00:00:01,001 INFO 13240 [15272640010021047741218140792] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-05-26 00:00:01,001 INFO 13240 [15272640010021047741218140792] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-05-26 00:00:01,018 INFO 13240 [15272640010021047741218140792] D:\Hcjs\study\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 17ms

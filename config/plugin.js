@@ -10,5 +10,9 @@ module.exports = () => {
     enable: false,
     path: path.join(__dirname, '../lib/plugin/egg-ua')
   }
+  plugins.mongoose = {
+    enable: true,
+    package: 'egg-mongoose'
+  }
   return plugins
 }

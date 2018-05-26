@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Mayness/egg-test#readme",
   "dependencies": {
     "egg": "^2.7.1",
+    "egg-mongoose": "^2.2.1",
     "egg-view-nunjucks": "^2.2.0"
   },
   "devDependencies": {
